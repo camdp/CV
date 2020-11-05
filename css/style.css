@@ -1,10 +1,41 @@
-.title4D {
+/*TYPOGRAPHIE*/
+
+h5 {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 600px;
+	font-weight: 600;
 }
 
-.corpsD1 {
+p{
 	font-family: 'Poppins', sans-serif;
-	font-weight: 600px;
+	font-weight: 300;
 }
 
+.SCorps1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-style: italic;
+
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 400;
+}
+
+h3,h4{
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 800;
+}
+
+/*MISE EN FORME*/
+
+.colonneG{
+	display: flex;
+	flex-direction: row;
+}
+
+.title4D{
+	display:flex;
+	flex-direction:column;
+	text-align: right; 
+}
